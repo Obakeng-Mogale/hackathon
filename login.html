@@ -11,26 +11,36 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #F0F2F5;
+            background-color: #f3edf7;
         }
+        
         .login-card {
-            max-width: 450px;
-            border-radius: 1.5rem; /* Rounded corners */
+            max-width: 500px;
+            border-radius: 0.1rem !important; /* Rounded corners */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             border: 1px solid #e2e8f0; /* Light gray border */
         }
         .form-control:focus {
             border-color: #a855f7; /* Purple border on focus */
             box-shadow: 0 0 0 0.25rem rgba(168, 85, 247, 0.25);
-            background-color: #f3f4f6; /* Light gray background on focus */
+            background-color: white; /* Light gray background on focus */
+        }
+        .form-control{
+            background-color: #ece6f0;
+        }
+        .login-btn {
+            color: black;
         }
         .btn-primary {
-            background-color: #8b5cf6; /* A slightly different shade of purple */
-            border-color: #8b5cf6;
+            background-color: #d5a8de; /* A slightly different shade of purple */
+            border-color: #d5a8de;
         }
         .btn-primary:hover {
-            background-color: #7c3aed; /* Darker purple on hover */
-            border-color: #7c3aed;
+            background-color: blue; /* Darker purple on hover */
+            border-color: blue;
+        }
+        .btn{
+            border-radius: 3rem;
         }
     </style>
 </head>
@@ -83,15 +93,17 @@
         <div class="mb-3">
             <button
                 type="submit"
-                class="btn btn-primary w-100 py-3 rounded-pill fw-bold"
+                class="btn btn-primary w-100 py-3 rounded-pill fw-bold ob-btn"
             >
-                Login
+            <a href="/index.html" class="text-decoration-none login-btn">
+                    Login
+            </a>
             </button>
         </div>
 
         <!-- Or Sign Up Link -->
         <p class="text-center text-secondary mt-4">
-            Or <a href="#" class="text-decoration-none text-purple-600 fw-bold">sign up</a>
+            Or <a href="/signup.html" class="text-decoration-none text-purple-600 fw-bold">sign up</a>
         </p>
 
     </div>
