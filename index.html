@@ -15,6 +15,26 @@
             display: flex; /* Use flexbox for the main layout */
             height: 100vh;
         }
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+        .blinking-text {
+            text-align: center;
+            margin-top: 20%;
+            font-size: 24px;
+            color: red;
+            animation: blink 1s infinite;
+        }
         .sidebar {
             width: 250px;
             background-color: #f3edf7; /* Dark background for the sidebar */
@@ -274,6 +294,7 @@
 
                     mediaRecorder.start();
                     statusDiv.textContent = "Status: Recording...";
+                    statusDiv.classList.add("blinking-text")
                     updateButtonState('recording');
                     
                     // Start the timer
