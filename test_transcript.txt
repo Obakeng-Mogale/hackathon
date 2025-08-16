@@ -1,0 +1,89 @@
+Doctor: Hi Jill, it’s nice to meet you.
+
+Patient: Hi Dr. Carter. How are you?
+
+Doctor: I'm good, thanks for asking. So, just to confirm—your main reason for coming in today is the ongoing stiffness and loss of motion in your right shoulder, is that correct?
+
+Patient: Yes, that’s right. It’s been getting worse—at first it was just stiff in the mornings, but now I can’t really reach overhead or behind my back at all. It makes things like putting on a jacket, or, um... I mean, even getting dishes down, really hard.
+
+Doctor: Have you had any recent injuries or falls affecting that shoulder, or any issues with other joints?
+
+Patient: No, no injuries. I... actually, I haven't had any accidents. No other joints are hurting either.
+
+Doctor: Okay, and just to clarify, you haven’t had any fevers, weight changes, or recent infections that you can recall?
+
+Patient: No, none of those. I’ve felt pretty much the same otherwise.
+
+Doctor: Do you feel any numbness, tingling, or weakness in that arm or hand?
+
+Patient: No, it’s just... stiff and painful when I try to move it, especially certain ways. Oh—wait, sometimes it feels a little weak, but I think that’s just because I haven’t been using it as much.
+
+Doctor: Understood. Just so I have all the details, your only regular health issue is high blood pressure, is that still well controlled?
+
+Patient: Yes, uh, just hypertension. And—oh, I’m not actually on any medications for that right now, Dr. Carter. I had a prescription, but—no, wait—sorry, I meant I watch my diet and exercise instead.
+
+Doctor: Got it, thanks for clarifying. Any allergies to medications, especially to anti-inflammatory drugs like ibuprofen?
+
+Patient: No, no allergies that I know of.
+
+Doctor: Have you had any surgeries besides your appendectomy?
+
+Patient: No, that’s the only surgery I’ve had.
+
+Doctor: Are you currently taking any medications at all, even over-the-counter pain relievers?
+
+Patient: No, nothing at all.
+
+Doctor: Thank you, Jill. I’d like to do a focussed exam of your right shoulder now. Let’s first check your active range of motion—can you try lifting your right arm straight up over your head as high as you can?
+
+Patient: Um... that’s about as far as I can go.
+
+Doctor: I see your abduction is quite limited. Now, try reaching your right arm out to the side—does that feel restricted?
+
+Patient: Yes, it stops right about there. It hurts if I push it more.
+
+Doctor: Let’s check external rotation. With your elbow at your side and bent to ninety degrees, can you rotate your forearm outward?
+
+Patient: No, that’s—yeah, that’s about as far as it’ll go.
+
+Doctor: I’m going to gently move your arm now, keeping your muscles relaxed. Please let me know if you feel any pain. First, I’m bringing your right arm up overhead—how does that feel?
+
+Patient: That’s definitely tight. It... it kind of hurts right there.
+
+Doctor: Now rotating your arm outward while keeping your elbow by your side—any discomfort?
+
+Patient: Yeah, that hurts. Not as much as before, but it’s still stiff.
+
+Doctor: I can confirm there’s marked limitation in both active and passive range of motion, particularly with abduction and external rotation. I reviewed your right shoulder X-ray, and there are no signs of arthritis or any bone damage, which is good.
+
+Patient: So, um, what is actually going on with my shoulder? Is it something serious?
+
+Doctor: You’re experiencing what’s called adhesive capsulitis, or “frozen shoulder.” Basically, the capsule of your shoulder joint has become inflamed and stiffened, which restricts your movement and causes the pain you’ve been having. There’s no permanent damage to the bones, but the capsule surrounding the joint is tighter than normal.
+
+Patient: Oh, I see... is it going to get better? Or—does it just stay this way?
+
+Doctor: That’s a great question. The good news is, frozen shoulder can improve, but it usually takes time and requires the right treatment. The cornerstone of treatment is physical therapy to help stretch and gradually loosen the capsule and restore motion. I’m going to refer you to a physical therapist who will work with you on range of motion exercises. That program is typically about six to eight weeks, and then we’ll reevaluate your progress.
+
+Patient: Okay, that, uh... that sounds doable, but will it hurt more if I try to move it?
+
+Doctor: The exercises can be uncomfortable, especially at the start, but we’ll also prescribe ibuprofen, 400 milligrams every six hours as needed, to help with the pain and inflammation. It’s important not to overdo it, but a little discomfort when stretching is expected as your mobility improves. If the pain becomes severe or you notice swelling, you should stop and let us know right away.
+
+Patient: All right... so, just ibuprofen and therapy? Is there anything else that helps?
+
+Doctor: Physical therapy and NSAIDs are usually very effective, but if you don’t improve after a couple of months—or if the pain becomes intolerable—there are other options we can discuss, like steroid injections. For now, these first steps have strong evidence for the best recovery.
+
+Patient: What about kayaking? Should I wait or try it again once I start treatment?
+
+Doctor: I understand how much you love kayaking. I’d recommend waiting until you’ve made some progress in therapy and have a bit more movement in your shoulder. When you start to regain function, you can gradually work back into activity—just avoid any moves that strain or force your shoulder.
+
+Patient: Okay, that makes sense. When—sorry, when should I see you again to check on things?
+
+Doctor: Great question. I’d like to see you back in the clinic in six to eight weeks. If you haven’t noticed improvement by then, or if anything worsens, come in sooner. I’ll also send a detailed note to your primary care doctor, Dr. Reynolds, so he’s updated.
+
+Patient: Alright. Thank you for explaining everything. Uh, just to be clear—ibuprofen 400 mg every six hours, and start therapy, right?
+
+Doctor: Exactly. Ibuprofen 400 mg as needed for pain, and we’ll get you set up with a physical therapist. While it takes patience, most people regain good shoulder function over time. If you have any questions or worries before your next visit, don’t hesitate to reach out.
+
+Patient: Sounds good. Thanks for, um... for taking the time with me!
+
+Doctor: Of course, Jill. I know this can be discouraging, but you’re doing all the right things. I’ll see you in about six weeks—don’t hesitate to call if you need anything sooner. Take care.
