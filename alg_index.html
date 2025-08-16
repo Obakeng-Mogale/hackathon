@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medical Note Generator</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #note { margin-top: 20px; white-space: pre-wrap; }
+    button { padding: 10px 20px; background: blue; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Generate Medical Note</h1>
+  <button onclick="runPython()">Run</button>
+  <div id="note"></div>
+
+  <script>
+    async function runPython() {
+      const response = await fetch("/run");
+      const data = await response.json();
+      document.getElementById("note").innerText = data.note;
+    }
+  </script>
+</body>
+</html>
