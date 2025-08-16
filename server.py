@@ -1,8 +1,10 @@
 # filename: server.py
 import os
+import main
 from datetime import datetime
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
+import time
 
 app = Flask(__name__)
 # Enable CORS for the frontend to access the API
@@ -18,6 +20,19 @@ if not os.path.exists(DATA_DIR):
 @app.route('/uploads/<path:filename>')
 def get_file(filename):
     return send_from_directory(DATA_DIR, filename, as_attachment=False)
+
+@app.route("/run", methods=["GET"])
+def run_algorithm():
+    try:
+        # Call the function from main.py with a hardcoded file path
+        note = main.main_("test_medicalAudio.mp3")
+
+        # Return the generated note as JSON
+        return jsonify({"note": note})
+    except Exception as e:
+        # Log the error for debugging purposes
+        print(f"An error occurred: {e}")
+        return jsonify({"error": "An internal server error occurred."}), 500
 
 # Route to get the list of recordings
 @app.route('/api/recordings')
@@ -36,7 +51,6 @@ def list_recordings():
                     
                     # The timestamp now contains milliseconds and a timezone ('-sssZ').
                     # We need to parse this part: YYYY-MM-DDTHH-MM-SS
-                    # The easiest way is to find the last hyphen, which precedes the milliseconds.
                     last_hyphen_index = timestamp_str.rfind('-')
                     if last_hyphen_index != -1:
                         timestamp_to_parse = timestamp_str[:last_hyphen_index]
